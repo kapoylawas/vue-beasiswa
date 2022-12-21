@@ -17,7 +17,10 @@
                         <h5><i class="fa fa-file-pdf"></i> Data Register Beasiswa</h5>
                         <br>
                         <div v-if="user">{{ user.student.name }} </div>
-                        <div v-if="user">{{ user.berkas }}</div>
+                        <div v-if="user">
+                            {{ user.berkas }}
+                            
+                        </div>
                     </div>
                 </div>
                 <div v-if="!user">
